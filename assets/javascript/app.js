@@ -1,13 +1,21 @@
+
 //web API key AIzaSyBCbmehTNwvQ_hTTvi2-L77R5RznS_PQ_E 
 
 // 1. Initialize Firebase
-var config = {
-    apiKey: "AIzaSyBCbmehTNwvQ_hTTvi2-L77R5RznS_PQ_E ",
-    authDomain: "time-sheet-55009.firebaseapp.com",
-    databaseURL: "https://time-sheet-55009.firebaseio.com",
-    storageBucket: "time-sheet-55009.appspot.com"
+
+     
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAzU6sweWx3ywsWHi-kxTqPWfWwXIq4R7Q",
+    authDomain: "traindemo-e2cc4.firebaseapp.com",
+    databaseURL: "https://traindemo-e2cc4.firebaseio.com",
+    projectId: "traindemo-e2cc4",
+    storageBucket: "traindemo-e2cc4.appspot.com",
+    messagingSenderId: "1094209819843",
+    appId: "1:1094209819843:web:d04e0a08d4afbfa5acfe76"
   };
-  
-  firebase.initializeApp(config);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
   
   var database = firebase.database();
